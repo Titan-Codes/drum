@@ -79,3 +79,32 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+@media (max-width: 500px){
+  .drum {
+    outline: none;
+    border: 13px solid #404B69;
+    font-size: 4rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 30px;
+    display: inline-block;
+    width: 180px;
+    /* gap: 176px; */
+    height: 154px;
+    text-align: center;
+    margin: -9px;
+    background-color: white;
+  }
+
+  #title{
+    font-size: 40px;
+    margin-top: 20px;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  }
+}
